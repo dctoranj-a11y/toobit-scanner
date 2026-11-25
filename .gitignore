@@ -1,0 +1,35 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite databases and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Scanner and backtest backups
+*_backup.py
+*_before_*.py
+*_old.py
+*_review_backup.py
+toobit_scanner_final_backup_*.py
+toobit_backtest_pre_*.py
+
+# Backtest outputs and private data
+toobit_backtest_results*.csv
+backtest_symbols.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# One-time maintenance scripts
+add_backtest_features.py
+fix_backtest_pagination.py
